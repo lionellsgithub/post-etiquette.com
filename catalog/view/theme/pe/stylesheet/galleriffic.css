@@ -1,0 +1,173 @@
+div.imageshowcase_content {
+	/* The display of imageshowcase_content is enabled using jQuery so that the slideshow imageshowcase_content won't display unless javascript is enabled. */
+	display: none;
+	float: right;
+	width: 600px; 
+}
+div.imageshowcase_content a, div.navigation a {
+	text-decoration: none;
+	color: #777;
+}
+div.imageshowcase_content a:focus, div.imageshowcase_content a:hover, div.imageshowcase_content a:active {
+	text-decoration: underline;
+}
+div.controls {
+	margin-top: 5px;
+	height: 23px;
+}
+div.controls a {
+	padding: 5px;
+}
+div.ss-controls {
+	float: left;
+}
+div.nav-controls {
+	float: right;
+}
+div.slideshow-container {
+    float: right;
+    height: 322px;
+    margin-top: -18px;
+    overflow: hidden;
+    position: relative;
+    width: 704px;
+}
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('../image/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 550px;
+	height: 520px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow {
+
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	top: 0;
+	left: 0;
+}
+div.slideshow a.advance-link {
+
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+    height: auto;
+    width: 100%;
+}
+div.download {
+	float: right;
+}
+div.caption-container {
+	
+}
+span.image-caption {
+	display: block;
+	position: absolute;
+}
+div.caption {
+	background-color: #000;
+	padding: 12px;
+	color: #ccc;
+}
+div.caption a {
+	color: #fff;
+}
+div.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+div.image-desc {
+	line-height: 1.3em;
+	padding-top: 12px;
+}
+div.navigation {
+	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+}
+#customcontent p{
+	font-size:10px;
+}
+#customcontent b{
+	font-size:12px;
+}
+#customcontent #gallery {
+    height: 315px;
+    overflow: auto;
+    width: 816px;
+}
+#customcontent #thumbs {
+    height: 326px;
+    margin-top: -25px;
+    width: 100px;
+}
+ul.thumbs {
+	margin: 0;
+	padding: 0;
+	width:100%;
+}
+ul.thumbs li {
+    float: left;
+    list-style: none outside none;
+    width: 50%;
+}
+a.thumb {
+	display: block;
+	border: 1px solid #ccc;
+}
+ul.thumbs li.selected a.thumb {
+	background: #000;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+	width:100%;
+}
+div.img_pagination {
+	clear: both;
+}
+div.navigation div.top {
+	margin-bottom: 12px;
+	height: 11px;
+}
+div.navigation div.bottom {
+	margin-top: 12px;
+}
+div.img_pagination a, div.img_pagination span.current, div.img_pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+div.img_pagination a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+div.img_pagination span.current {
+	font-weight: bold;
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+div.img_pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+#captionToggle a {
+	float: right;
+	display: block;
+	background-image: url('../image/caption.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top: 5px;
+	padding: 5px 30px 5px 5px;
+}
